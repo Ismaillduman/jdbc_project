@@ -1,0 +1,26 @@
+Part 1
+
+Select - Distinct - Where - Order By - Like -
+
+Group By - Having
+
+1. List all the employees first and last name with their salary in employees table
+2. How many employees have salary less than 5000?
+3. How many employees have salary between 6000 and 7000?
+4. List all the different region_ids in countries table
+5. Display the salary of the employee Grant Douglas (lastName: Grant,
+firstName: Douglas)
+6. Display all department information from departments table
+-- if the department name values are as below
+-- IT , Public Relations , Sales , Executive
+7. Display the maximum salary in employees table
+8. Display the the minimum salary in employees table
+9. Display the average salary of the employees;
+10. Count the total numbers of the departments in departs table
+11. Sort the start_date in ascending order in job_history's table
+12. Sort the start_date in descending order in job_history's table
+13. Display all records whose last name contains 2 lowercase 'a's
+14. Display all the employees whose first name starts with ‘A'
+
+
+
