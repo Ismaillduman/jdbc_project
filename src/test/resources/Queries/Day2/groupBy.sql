@@ -112,3 +112,10 @@ group by DEPARTMENT_ID
 having count(*) > 5
 order by 2;
 
+--the query below second column name is ROUND(AVG(SALARY)) which is not nice
+
+select DEPARTMENT_ID, ROUND(AVG(SALARY)) as "Average_salary" --i can fix that with as key word
+FROM EMPLOYEES
+where DEPARTMENT_ID is not null
+group by DEPARTMENT_ID
+having AVG(SALARY) > 6000;
