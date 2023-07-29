@@ -84,7 +84,7 @@ HAVING AVG(SALARY) > 6000;
 
 -- display departments where avg salary is more than 6k
 select DEPARTMENT_ID, ROUND(AVG(SALARY))
-FROM EMPLOYEES
+FROM EMPLOY
 where DEPARTMENT_ID is not null
 group by DEPARTMENT_ID
 having AVG(SALARY) > 6000;
