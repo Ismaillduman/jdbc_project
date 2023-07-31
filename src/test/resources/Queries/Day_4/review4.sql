@@ -1,0 +1,24 @@
+SELECT * FROM EMPLOYEES;
+
+--display all info who is getting 3.th lowest salary
+
+SELECT DISTINCT SALARY FROM EMPLOYEES
+ORDER BY SALARY;
+
+SELECT * FROM (SELECT DISTINCT SALARY FROM EMPLOYEES
+               ORDER BY SALARY )
+WHERE ROWNUM<4;
+
+SELECT MAX(SALARY) FROM (SELECT * FROM (SELECT DISTINCT SALARY FROM EMPLOYEES
+                                        ORDER BY SALARY )
+                         WHERE ROWNUM<4);
+
+SELECT * FROM EMPLOYEES
+WHERE SALARY= (SELECT MAX(SALARY) FROM (SELECT * FROM (SELECT DISTINCT SALARY FROM EMPLOYEES
+                                                       ORDER BY SALARY )
+                                        WHERE ROWNUM<4));
+
+select DEPARTMENT_NAME
+FROM DEPARTMENTS
+where DEPARTMENT_ID=(SELECT DEPARTMENT_ID FROM EMPLOYEES
+                                          WHERE FIRST_NAME='Ki');
