@@ -78,5 +78,10 @@ public class P03_Metadata {
         }
         System.out.println(allTableInfo);
         System.out.println(allTableInfo.get(1).get("FIRST_NAME"));
+
+        //close connection
+        rs.close();
+        statement.close();
+        connection.close();
     }
 }
