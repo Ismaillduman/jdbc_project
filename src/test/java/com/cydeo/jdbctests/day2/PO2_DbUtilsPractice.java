@@ -44,6 +44,8 @@ public class PO2_DbUtilsPractice {
         for (Map<String, String> eachMap : allDataListOfMap) {
             System.out.println(eachMap);
         }
+
+
         //close the connection
         DB_Utilities.destroy();
 
