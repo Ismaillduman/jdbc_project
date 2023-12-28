@@ -6,14 +6,14 @@
       <synchronize>true</synchronize>
       <auto-commit>false</auto-commit>
       <jdbc-driver>oracle.jdbc.OracleDriver</jdbc-driver>
-      <jdbc-url>jdbc:oracle:thin:@44.204.20.3:1521:XE</jdbc-url>
+      <jdbc-url>jdbc:oracle:thin:@54.158.239.73:1521:XE</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="LibraryApp" uuid="2c69de1b-ff6b-4c09-b25c-70f41ba61c3b">
+    <data-source source="LOCAL" name="UDEMYDatabase" uuid="bf0ca6e2-3d6c-49fe-b4fd-cb166c190451">
       <driver-ref>mysql.8</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
-      <jdbc-url>jdbc:mysql://34.230.35.214:3306/library2</jdbc-url>
+      <jdbc-url>jdbc:mysql://localhost:3306/classicmodels</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

@@ -74,6 +74,7 @@ public class DB_Utilities {
      * destroy method to clean up all the resources after being used
      */
     public static void destroy(){
+
         // WE HAVE TO CHECK IF WE HAVE THE VALID OBJECT FIRST BEFORE CLOSING THE RESOURCE
         // BECAUSE WE CAN NOT TAKE ACTION ON AN OBJECT THAT DOES NOT EXIST
         try {
