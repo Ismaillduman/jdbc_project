@@ -13,3 +13,9 @@ z
 Jsrc/test/java/com/cydeo/jdbctests/liveclassReview/PO2_Jb_UtilPractice.java,1\5\1581d52a1824f906d1ee030882461a67ad14b7ea
 k
 ;src/test/java/com/cydeo/jdbctests/TestOracleConnection.java,1\7\17e5b7c545815bd1526106996568c3393a053355
+h
+8src/test/java/com/cydeo/jdbctests/day2/Library_Test.java,c\d\cd918fda8736a013e3c8b7422de27c2e39764c38
+i
+9src/test/java/com/cydeo/jdbctests/day1/P01_JDBCIntro.java,e\4\e42ec3546c7aa81161aa55874e3edb7128e2431e
+_
+/src/test/java/com/cydeo/jdbctests/day1/P02.java,e\c\ec5163b17b64dcd9868f7515bb9e6b1b52ddb935
